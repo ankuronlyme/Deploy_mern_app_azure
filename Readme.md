@@ -1,13 +1,16 @@
-#Deployment process of a MERN application using AKS
+# - Deployment process of a MERN application using AKS
 
 
-# Need foolowing installtion before start the project:
+# Need following installtion before start the project:
 
-Azure Account: An active Azure subscription.
-Azure CLI: Installed on your local machine.
-Docker: Installed and running on your local machine.
-Kubectl: Installed on your local machine.
-Git: Installed on your local machine.
+- Azure Account: An active Azure subscription.
+
+- Azure CLI: Installed on your local machine.
+
+- Docker: Installed and running on your local machine.
+
+- Kubectl: Installed on your local machine.
+
 
 
 # Cloning the repository into the local system:
@@ -173,7 +176,7 @@ Frontend:
 
 Backend:
 
-    - Hello Servive:
+    - Hello Service:
 
 
 ![alt text](./Screenshots/image-14.png)
