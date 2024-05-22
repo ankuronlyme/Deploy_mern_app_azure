@@ -17,7 +17,7 @@ Containerize the Application
                  docker tag <your-image-name>:<version> <your-dockerhub-username/registory-name>:<version>
                  docker push <your-dockerhub-username/registory-name>:<version>
 
-                 ![alt text](./Screenshots/image-1.png)
+    ![alt text](./Screenshots/image-1.png)
 
 
 Set Up AKS
