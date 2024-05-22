@@ -17,7 +17,7 @@ Containerize the Application
                  docker tag <your-image-name>:<version> <your-dockerhub-username/registory-name>:<version>
                  docker push <your-dockerhub-username/registory-name>:<version>
 
-    ![alt text](./Screenshots/image-1.png)
+![alt text](./Screenshots/image-1.png)
 
 
 Set Up AKS
@@ -33,38 +33,38 @@ Set Up AKS
         Microsoft.KubernetesConfiguration
         Microsoft.KubernetesRuntime
 
-        ![alt text](./Screenshots/image-5.png)
+![alt text](./Screenshots/image-5.png)
 
 
     - Resource group:
 
-        ![alt text](./Screenshots/image-16.png)
+![alt text](./Screenshots/image-16.png)
 
 
     - Kubernetes :
 
-        ![alt text](./Screenshots/image-17.png)
+![alt text](./Screenshots/image-17.png)
 
 
     - Login with azure in your terminal
 
         command: az login
 
-        ![alt text](./Screenshots/image-2.png)
+![alt text](./Screenshots/image-2.png)
 
 
     - Creation of an AKS Cluster
 
         command: az aks create --resource-group mern_micro_app --name mern_cluster --node-count 2 --enable-addons monitoring --generate-ssh-keys
 
-        ![alt text](./Screenshots/image-3.png)
+![alt text](./Screenshots/image-3.png)
 
 
     - Get AKS Credentials
 
         command: az aks get-credentials --resource-group mern_micro_app --name mern_cluster
 
-        ![alt text](./Screenshots/image-4.png)
+![alt text](./Screenshots/image-4.png)
 
 
 
@@ -72,7 +72,7 @@ Installation of Ingress
 
         command: kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/cloud/deploy.yaml
 
-        ![alt text](./Screenshots/image-6.png)
+![alt text](./Screenshots/image-6.png)
 
 
 
@@ -83,7 +83,7 @@ Create & execute K8 deployment files and service files of frontend and backend:
                  kubectl apply -f frontend-deployment.yaml # put your file name 
                  kubectl apply -f frontend-service.yaml # put your file name 
 
-        ![alt text](./Screenshots/image-7.png)
+![alt text](./Screenshots/image-7.png)
 
 
 
@@ -91,7 +91,7 @@ Check Pods:
 
         command: kubectl get pods
 
-        ![alt text](./Screenshots/image-8.png)
+![alt text](./Screenshots/image-8.png)
 
 
 
@@ -99,7 +99,7 @@ Check svc:
 
         command: kubectl get svc
 
-        ![alt text](./Screenshots/image-9.png)
+![alt text](./Screenshots/image-9.png)
 
 
 
@@ -107,7 +107,7 @@ Create an ingress file and excute that file:
 
         command: kubectl apply -f ingress.yaml # put your file name 
 
-        ![alt text](./Screenshots/image-10.png)
+![alt text](./Screenshots/image-10.png)
 
 
 
@@ -115,13 +115,13 @@ Check get ingress:
 
         command: kubectl gbet ingress
 
-        ![alt text](./Screenshots/image-11.png)
+![alt text](./Screenshots/image-11.png)
 
 
 
 Setup DNS:
 
-        ![alt text](./Screenshots/image-12.png)
+![alt text](./Screenshots/image-12.png)
 
 
 
@@ -129,19 +129,19 @@ Now check your frontend and backend with your domain name:
 
 Frontend:
 
-        ![alt text](./Screenshots/image-13.png)
+![alt text](./Screenshots/image-13.png)
         
 
 Backend:
 
     Hello Servive:
 
-        ![alt text](./Screenshots/image-14.png)
+![alt text](./Screenshots/image-14.png)
 
 
     Profile Service:
 
-        ![alt text](./Screenshots/image-15.png)
+![alt text](./Screenshots/image-15.png)
 
 
 
