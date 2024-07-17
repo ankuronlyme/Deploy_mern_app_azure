@@ -1,4 +1,4 @@
-# -Deployment process of a MERN application using AKS
+#Deployment process of a MERN application using AKS
 
 
 # Need following installtion before start the project:
